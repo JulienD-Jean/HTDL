@@ -16,8 +16,8 @@ function addEntry(text) {
     let highestId = 0;
 
     if (entriesIds.length > 0) {
-        entriesIds.forEach(parseInt(id) => {
-            if (id > highestId) {
+        entriesIds.forEach(id => {
+            if (parseInt(id) > highestId) {
                 highestId = id;
             }
         });
