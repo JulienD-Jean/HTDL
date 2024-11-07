@@ -26,7 +26,7 @@ function updateInterface() {
                 <td style="width: 5%;">|</td>
                 <td class="p-0 pb-1" style="width: 40px;">
                     <a id="upVoteBtn${entry.id}" type="button" class="d-inline upVoteBtn">
-                        <img src="../Images/arrow_upward.svg" alt="Up Vote" class="img-fluid" style="height: 70%; width: 70%;"/>
+                        <img src="Images/arrow_upward.svg" alt="Up Vote" class="img-fluid" style="height: 70%; width: 70%;"/>
                     </a>
                 </td>
                 <td>${entry.upVotes}</td>
